@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+}
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pink {
+    background-image: url("./assets/b1.png");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sign {
+    background-color: darkred;
+    color: white;
+    height: 35px;
+}
+
+.learn {
+    background-color: rgb(192, 37, 132);
+    color: white;
+    height: 35px;
+}
+
+h1 {
+    font-size: 50em;
+
+}
+
+#pink2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white;
+    border-top: 50px;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.linkbutton {
+    padding: 0 20px;
+}
+
+.navlink {
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.best {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.best p,
+h2 {
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.divide {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+#a,
+#company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    justify-content: space-evenly;
+}
+
+#a h2,
+p {
+    text-align: center;
+    padding: 0 20px;
+}
+
+#image2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+    width: 50%;
+}
+
+hr {
+    width: 97%;
+}
+
+.welove {
+    background-image: url(./assets/background.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.welove h2 {
+    font-size: x-large;
+}
+
+.blackHeart2 {
+    width: 60px;
+    height: 40px;
+    filter: invert();
+}
+
+.gr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.comIm {
+    height: 600px;
+    width: 400px;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 550px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+}
+
+#list ul {
+    list-style: none;
+}
+
+#list p {
+    font-weight: bolder;
+}
+
+
+#blank {
+    height: 5px;
+    width: 10px;
+}
